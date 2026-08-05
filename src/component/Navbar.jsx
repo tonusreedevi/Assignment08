@@ -25,7 +25,7 @@ const Navbar = () => {
 
           <li>
             <a
-              href="/products"
+              href="/#products"
               className="relative transition-all duration-300 hover:text-[#F46C06]
               after:absolute after:left-0 after:-bottom-2 after:h-[2px]
               after:w-0 after:bg-[#F46C06] after:transition-all

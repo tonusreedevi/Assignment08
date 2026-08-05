@@ -40,7 +40,7 @@ const PopularProducts = () => {
   }
 
   return (
-    <section className="py-24 bg-[#FFF9F2]">
+    <section  id="products"  className="py-24 bg-[#FFF9F2]">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
