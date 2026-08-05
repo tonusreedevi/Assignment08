@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "/images/products/1.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Beach Straw Hat",
+    "brand": "SunnyWear",
+    "price": 18,
+    "rating": 4.8,
+    "stock": 15,
+    "description": "Lightweight straw hat that protects you from the summer sun.",
+    "image": "/images/products/2.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 3,
+    "name": "Insulated Water Bottle",
+    "brand": "HydroCool",
+    "price": 22,
+    "rating": 4.9,
+    "stock": 20,
+    "description": "Keeps your drinks cold for up to 24 hours during hot days.",
+    "image": "/images/products/3.jpg",
+    "category": "Essentials"
+  },
+  {
+    "id": 4,
+    "name": "Portable Mini Fan",
+    "brand": "CoolAir",
+    "price": 25,
+    "rating": 4.6,
+    "stock": 12,
+    "description": "Rechargeable handheld fan with three adjustable speed levels.",
+    "image": "/images/products/4.jpg",
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "Summer Flip Flops",
+    "brand": "BeachWalk",
+    "price": 20,
+    "rating": 4.5,
+    "stock": 25,
+    "description": "Comfortable anti-slip flip flops for beaches and vacations.",
+    "image": "/images/products/5.jpg",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Cooling Face Mist",
+    "brand": "FreshGlow",
+    "price": 12,
+    "rating": 4.7,
+    "stock": 30,
+    "description": "Refreshing aloe vera face mist to keep your skin hydrated.",
+    "image": "/images/products/6.jpg",
+    "category": "Beauty"
+  },
+  {
+    "id": 7,
+    "name": "SPF 50 Sunscreen",
+    "brand": "SunCare",
+    "price": 16,
+    "rating": 4.9,
+    "stock": 18,
+    "description": "Broad-spectrum sunscreen that protects against harmful UV rays.",
+    "image": "/images/products/7.jpg",
+    "category": "Beauty"
+  },
+  {
+    "id": 8,
+    "name": "Inflatable Swim Ring",
+    "brand": "WaveFun",
+    "price": 14,
+    "rating": 4.6,
+    "stock": 14,
+    "description": "Durable inflatable swim ring for pool and beach adventures.",
+    "image": "/images/products/8.jpg",
+    "category": "Outdoor"
+  },
+  {
+    "id": 9,
+    "name": "Picnic Basket Set",
+    "brand": "NatureJoy",
+    "price": 35,
+    "rating": 4.8,
+    "stock": 8,
+    "description": "Complete picnic basket set for family outings and summer trips.",
+    "image": "/images/products/9.jpg",
+    "category": "Outdoor"
+  },
+  {
+    "id": 10,
+    "name": "Polarized Sunglasses",
+    "brand": "VisionPro",
+    "price": 28,
+    "rating": 4.9,
+    "stock": 16,
+    "description": "Premium polarized sunglasses with UV400 protection for maximum comfort.",
+    "image": "/images/products/10.jpg",
+    "category": "Accessories"
+  }
+]
