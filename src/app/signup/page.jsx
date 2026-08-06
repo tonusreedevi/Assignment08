@@ -106,6 +106,7 @@ export default function SignupPage() {
               name="image"
               type="text"
               placeholder="https://example.com/photo.jpg"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="w-full px-4 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-[#F6B914]"
             />
           </div>
