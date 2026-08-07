@@ -7,7 +7,6 @@ import { authClient } from "@/lib/auth-client";
 
 const Navbar = () => {
   const router = useRouter();
-
   const [mounted, setMounted] = useState(false);
 
   const { data: session } = authClient.useSession();
@@ -21,6 +20,18 @@ const Navbar = () => {
 
     router.push("/");
     router.refresh();
+  };
+
+  // Get first two letters of user's name
+  const getInitials = (name) => {
+    if (!name) return "U";
+
+    return name
+      .trim()
+      .split(" ")
+      .slice(0, 2)
+      .map((word) => word.charAt(0).toUpperCase())
+      .join("");
   };
 
   return (
@@ -85,20 +96,44 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
 
           {!mounted ? (
-            // Keep server and initial client HTML identical
-            <div className="w-32 h-10" />
+            <div className="w-40 h-10" />
           ) : session ? (
-            // Logged in
-            <button
-              onClick={handleLogout}
-              className="px-5 py-2 rounded-full bg-[#0B3D6F]
-              text-white font-semibold shadow-md
-              hover:bg-[#082D50] transition-all duration-300"
-            >
-              Logout
-            </button>
+
+            /* ================= LOGGED IN ================= */
+            <div className="flex items-center gap-3">
+
+              {/* Avatar */}
+              {session.user.image ? (
+                <img
+                  src={session.user.image}
+                  alt={session.user.name || "Profile"}
+                  className="w-10 h-10 rounded-full object-cover border-2 border-[#F6B914]"
+                />
+              ) : (
+                <div
+                  className="w-10 h-10 rounded-full bg-[#0B3D6F]
+                  text-white flex items-center justify-center
+                  font-bold border-2 border-[#F6B914]"
+                >
+                  {getInitials(session.user.name)}
+                </div>
+              )}
+
+              {/* Logout */}
+              <button
+                onClick={handleLogout}
+                className="px-5 py-2 rounded-full bg-[#0B3D6F]
+                text-white font-semibold shadow-md
+                hover:bg-[#082D50] transition-all duration-300"
+              >
+                Logout
+              </button>
+
+            </div>
+
           ) : (
-            // Logged out
+
+            /* ================= LOGGED OUT ================= */
             <>
               <Link
                 href="/signup"
@@ -122,6 +157,7 @@ const Navbar = () => {
           )}
 
         </div>
+
       </div>
     </nav>
   );
