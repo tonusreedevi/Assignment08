@@ -36,7 +36,7 @@ export default function SignupPage() {
       }
       
       alert("Account created successfully!");
-    
+       router.push('/signin') 
       form.reset();
     } catch (err) {
       console.error(err);
