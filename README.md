@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+SunCart
 
-## Getting Started
+SunCart is a modern summer-themed ecommerce web application built with Next.js. It allows users to browse products, view product details, create accounts, sign in, and manage their profile. The project uses Better Auth for authentication and MongoDB for storing user authentication data.
 
-First, run the development server:
+Live URL:https://suncart-sepia.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Purpose
+The purpose of SunCart is to provide a simple, modern, and user-friendly e-commerce platform with a summer-inspired design.
+he project was developed to practice and demonstrate:
+Next.js development
+User authentication
+MongoDB integration
+Dynamic product pages
+API routes
+Client-side and server-side components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+key features,:
+Product Browsing
+Display products from a JSON data source.
+Featured products section on the homepage.
+Authentication:
+User registration/signup.
+User login/signin.
+Logout functionality.
+Authentication handled using Better Auth.
+MongoDB integration for authentication data.
+Protected user-related pages.
+User Profile
+Logged-in users can access their profile.
+Navbar changes depending on authentication status.
+Displays user information/avatar when logged in.
+Login/Register options for logged-out users.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Technologies Used
+Next.js
+React
+JavaScript
+Tailwind CSS
+MongoDB
+Better Auth
+Vercel
 
-## Learn More
+NPM Packages Used:
+next  React framework for building the application.
+react-dom – React DOM rendering.
+better-auth Authentication system.
+@better-auth/mongo-adapterMongoDB adapter for Better Auth.
+mongodb
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
