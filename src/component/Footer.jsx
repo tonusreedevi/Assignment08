@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -27,27 +28,27 @@ const Footer = () => {
 
             <ul className="space-y-3">
               <li>
-                <a href="/" className="hover:text-[#F6B914] transition">
+                <Link href="/" className="hover:text-[#F6B914] transition">
                   Home
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/products" className="hover:text-[#F6B914] transition">
+                <Link href="/products" className="hover:text-[#F6B914] transition">
                   Products
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/about" className="hover:text-[#F6B914] transition">
+                <Link href="/about" className="hover:text-[#F6B914] transition">
                   About Us
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/contact" className="hover:text-[#F6B914] transition">
+                <Link href="/contact" className="hover:text-[#F6B914] transition">
                   Contact
-                </a>
+                </Link >
               </li>
             </ul>
           </div>
@@ -60,27 +61,27 @@ const Footer = () => {
 
             <ul className="space-y-3">
               <li>
-                <a href="/" className="hover:text-[#F6B914] transition">
+                <Link  href="/" className="hover:text-[#F6B914] transition">
                   Help Center
-                </a>
+                </Link >
               </li>
 
               <li>
-                <a href="/" className="hover:text-[#F6B914] transition">
+                <Link  href="/" className="hover:text-[#F6B914] transition">
                   Privacy Policy
-                </a>
+                </Link >
               </li>
 
               <li>
-                <a href="/" className="hover:text-[#F6B914] transition">
+                <Link  href="/" className="hover:text-[#F6B914] transition">
                   Terms & Conditions
-                </a>
+                </Link >
               </li>
 
               <li>
-                <a href="/" className="hover:text-[#F6B914] transition">
+                <Link  href="/" className="hover:text-[#F6B914] transition">
                   FAQ
-                </a>
+                </Link >
               </li>
             </ul>
           </div>
