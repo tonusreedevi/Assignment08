@@ -2,7 +2,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 
 async function getProduct(id) {
-  const res = await fetch("   https://suncart-1gf9zss8h-hellotuli2001-8515s-projects.vercel.app/data/products.json", {
+  const res = await fetch("https://suncart-sepia.vercel.app/data/products.json", {
     cache: "no-store",
   });
 
